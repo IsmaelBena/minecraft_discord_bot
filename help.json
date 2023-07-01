@@ -1,0 +1,46 @@
+[
+    {
+        "command": "ping",
+        "example": "[!ping]",
+        "desc": "Bot responds with pong if alive"
+    },
+    {
+        "command": "mc",
+        "aliases": ["minecraft"],
+        "example": "[!mc {arg}]",
+        "desc": "Command used to interact with the minecraft server currently bound to the bot",
+        "args": [
+            {
+                "arg": "start",
+                "example": "[!mc start]",
+                "desc": "Starts the minecraft server."
+            },
+            {
+                "arg": "stop",
+                "aliases": ["shutdown", "kill"],
+                "example": "[!mc stop]",
+                "desc": "Shutsdown the minecraft server."
+            },
+            {
+                "arg": "status",
+                "example": "[!mc status]",
+                "desc": "Checks whether the minecraft server is Off, On, Starting up or Shutting down. If the server is on, it will return a list of the player currently on the server."
+            },
+            {
+                "arg": "info",
+                "example": "[!mc info]",
+                "desc": "Returns all the information regarding the server including: Ip-address, Port, Name, Average boot time along with other miscellaneous information about the world such as difficulty."
+            },
+            {
+                "arg": "op",
+                "example": "[!mc op {target}]",
+                "desc": "Give OP privileges to the target using their in-game name"
+            }
+        ]
+    },
+    {
+        "command": "shutdown_pc",
+        "example": "[!shutdown_pc]",
+        "desc": "Will shutdown the pc hosting the server and this bot. Will only work if you have elevated privileges."
+    }
+]
