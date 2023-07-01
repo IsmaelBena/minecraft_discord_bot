@@ -8,7 +8,7 @@ Currently Supports:
 - shutting down host pc
 - checking servers status and info
 
-In order for the bot to run you first need to create a .env file and file it with the following
+In order for the bot to run you first need to create a .env file and paste the following
 
 ```
 # Bot Token
