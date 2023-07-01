@@ -15,7 +15,7 @@ In order for the bot to run you first need to create a .env file and paste the f
 BOT_TOKEN = 
 # Root directory of the minecraft server. e.g. C:\\Users\\Games\\Minecraft-Server
 MC_SERVER_DIR = 
-# File used to run the server. Default is start.bat
+# Script used to run the server. Default is start.bat
 MC_SERVER_START_SCRIPT = start.bat
 # Array of discord IDs of users who can shutdown the host machine and op users. Insert discord IDs seperated by commas without spaces, format: ELEVATED_PRIVILEGES = xxxxxxxxxxxxxx,xxxxxxxxxxxxxxxxxxx,xxxxxxxxxxxxxxxx
 ELEVATED_PRIVILEGES = 
