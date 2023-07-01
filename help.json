@@ -17,7 +17,6 @@
             },
             {
                 "arg": "stop",
-                "aliases": ["shutdown", "kill"],
                 "example": "[!mc stop]",
                 "desc": "Shutsdown the minecraft server."
             },
